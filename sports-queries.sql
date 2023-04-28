@@ -86,12 +86,11 @@ GROUP BY Teams.TeamName
 
 --usinfg set operations
 --shows all players in both selections together usin g union
-SELECT FirstName, LastName
+SELECT FirstName, LastName, Position
 FROM Players
 WHERE Position = 'Small Forward'
 UNION
-SELECT FirstName, LastName
+SELECT FirstName, LastName, Position
 FROM Players
 WHERE Position = 'Power Forward';
-
 --
