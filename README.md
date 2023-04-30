@@ -1,11 +1,11 @@
 # nassar-372-project
-Domain Description
+##Domain Description
 
-Title: Sports team management
+###Title: Sports team management
 
 The SQL Domain for Sports Team Management is designed to manage information using Structured Query Language (SQL) commands. This database will include various tables with information about entities such as players, coaches, teams, matches, and statistics. The purpose of this database is to provide a centralized repository of information that can be easily queried and analyzed to support various administrative and competitive functions within the sports team and the athletes.
 
-Entities and Relationships
+###Entities and Relationships
 The SQL Domain for Sports Team Management will include several key entities, each of which will be related to one another in various ways. These entities include:
 
 Players: This entity will contain information about individual players, including their name, contact information, position, and other relevant details. Each player will be assigned a unique identifier to ensure that their information can be easily tracked and accessed.
@@ -24,7 +24,7 @@ Using SQL commands, users can retrieve information from these tables, join table
 
 -----------------------------------------
  
-Entity-Relationship Diagram
+###Entity-Relationship Diagram
 to be uploaded
 
  
@@ -32,25 +32,25 @@ to be uploaded
  -------------------------------------
 Relational Schema
 
-Players(PlayerID, FirstName, LastName, ContactInformation, Position, TeamID)
+Players(*PlayerID*, FirstName, LastName, ContactInformation, Position, TeamID)
 
-Coaches(CoachID, FirstName, LastName, ContactInformation, TeamAffiliation)
+Coaches(*CoachID*, FirstName, LastName, ContactInformation, TeamAffiliation)
 
-Teams(TeamID, TeamName, ContactInformation, SportType)
+Teams(*TeamID*, TeamName, ContactInformation, SportType)
 
-Matches(MatchID, MatchDate, Location, Opponent, HomeTeamID, AwayTeamID)
+Matches(*MatchID*, MatchDate, Location, Opponent, HomeTeamID, AwayTeamID)
 
-Statistics(StatisticID, PlayerID, MatchID, Goals, Assists, Saves)
+Statistics(*StatisticID*, PlayerID, MatchID, Goals, Assists, Saves)
 
-InjuryReports(ReportID, PlayerID, InjuryType, Description, ReportDate)
+InjuryReports(*ReportID*, PlayerID, InjuryType, Description, ReportDate)
 
-Contracts(ContractID, PlayerID, Salary, ContractStart, ContractEnd)
+Contracts(*ContractID*, PlayerID, Salary, ContractStart, ContractEnd)
 
 
 
 ----------------------------------------------
 
-Boyce–Codd Normal Form Decomposition
+###Boyce–Codd Normal Form Decomposition
 
 Step 1: Identify the functional dependencies between attributes in each table.
 
