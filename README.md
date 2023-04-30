@@ -1,7 +1,7 @@
 # nassar-372-project
-##Domain Description
+## Domain Description
 
-###Title: Sports team management
+### Title: Sports team management
 
 The SQL Domain for Sports Team Management is designed to manage information using Structured Query Language (SQL) commands. This database will include various tables with information about entities such as players, coaches, teams, matches, and statistics. The purpose of this database is to provide a centralized repository of information that can be easily queried and analyzed to support various administrative and competitive functions within the sports team and the athletes.
 
@@ -50,7 +50,7 @@ Contracts(*ContractID*, PlayerID, Salary, ContractStart, ContractEnd)
 
 ----------------------------------------------
 
-###Boyce–Codd Normal Form Decomposition
+### Boyce–Codd Normal Form Decomposition
 
 Step 1: Identify the functional dependencies between attributes in each table.
 
