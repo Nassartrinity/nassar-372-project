@@ -24,7 +24,7 @@ Using SQL commands, users can retrieve information from these tables, join table
 
 -----------------------------------------
  
-###Entity-Relationship Diagram
+### Entity-Relationship Diagram
 to be uploaded
 
  
