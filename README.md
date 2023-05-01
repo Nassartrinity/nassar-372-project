@@ -25,7 +25,7 @@ Using SQL commands, users can retrieve information from these tables, join table
 -----------------------------------------
  
 ### Entity-Relationship Diagram
-to be uploaded
+![Screenshot 2023-05-01 001449](https://user-images.githubusercontent.com/92758300/235405921-c026b3c4-d451-446c-9146-b5246235a929.png)
 
  
 
